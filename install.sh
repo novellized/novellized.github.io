@@ -48,3 +48,4 @@ echo "   Novellized Studio successfully installed!"
 echo "   Launch it by typing 'novellized' or from your"
 echo "   Desktop Applications menu."
 echo "===================================================="
+
