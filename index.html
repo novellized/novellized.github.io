@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novellized — The Literary Writing Environment</title>
+  <meta name="description" content="A distraction-free prose editor and standalone literary IDE for authors, novelists, and storytellers. Available for Linux, Windows, and as a VS Code/VSCodium extension.">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#" class="brand">
+        <img src="assets/logo.svg" alt="Novellized Logo" class="brand-logo" width="36" height="36">
+        <span class="brand-name">Novellized</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#studio">Novellized Studio</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#apt-repository">Linux APT</a>
+        <a href="https://github.com/novellized" target="_blank" rel="noopener" class="nav-github">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          GitHub
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span id="latest-version-badge">Version 0.1.0 Ready</span>
+      </div>
+      <h1 class="hero-title">Where Stories Come to Life.</h1>
+      <p class="hero-subtitle">
+        Novellized transforms your writing into an immersive, distraction-free sanctuary. 
+        Engineered with live book-grade Markdown typography, full manuscript outlining, 
+        dual-engine flexibility, and zero programmer noise.
+      </p>
+      <div class="hero-actions">
+        <a href="#downloads" class="btn btn-primary">Download Novellized</a>
+        <a href="https://github.com/novellized/novellized-editor" target="_blank" rel="noopener" class="btn btn-secondary">Explore on GitHub</a>
+      </div>
+
+      <!-- Literary Preview Card -->
+      <div class="preview-wrapper">
+        <div class="preview-chrome">
+          <div class="chrome-controls">
+            <span class="control-dot close"></span>
+            <span class="control-dot min"></span>
+            <span class="control-dot max"></span>
+          </div>
+          <div class="chrome-title">Novellized Studio — Chapter 01: The Amber Quill</div>
+          <div class="chrome-meta">Warm Parchment • Focus Mode Active</div>
+        </div>
+        <div class="preview-body">
+          <aside class="preview-sidebar">
+            <div class="sidebar-header">MANUSCRIPT</div>
+            <ul class="tree-list">
+              <li class="tree-act">Act I: The Threshold</li>
+              <li class="tree-chapter active">
+                Chapter 01: The Amber Quill
+                <ul class="tree-scenes">
+                  <li class="active">Scene 1: Midnight Rain (1,420 words)</li>
+                  <li>Scene 2: The Old Library (980 words)</li>
+                </ul>
+              </li>
+              <li class="tree-chapter">Chapter 02: Whispers in Fog</li>
+              <li class="sidebar-header mt-4">STORY BIBLE</li>
+              <li class="tree-bible">characters.md (8 profiles)</li>
+              <li class="tree-bible">worldbuilding.md (Lore)</li>
+            </ul>
+          </aside>
+          <main class="preview-editor">
+            <div class="editor-page">
+              <h2 class="book-title">Chapter One</h2>
+              <h3 class="scene-title">Midnight Rain</h3>
+              <p class="prose-paragraph focus-current">
+                The scent of rain and old parchment always had a way of anchoring Julian’s thoughts when the city quieted down. On the heavy oak desk sat an untamable stack of leather-bound journals, their corners worn smooth by years of restless revision. Outside, cobblestones glistened beneath the amber glow of gas lanterns, yet inside this quiet room, time felt suspended.
+              </p>
+              <p class="prose-paragraph focus-dim">
+                He dipped the nib into deep sepia ink, paused for the briefest breath, and allowed the first sentence of the long-forgotten chronicle to etch itself onto the clean page.
+              </p>
+              <div class="scene-divider">✦ ✦ ✦</div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Features -->
+  <section id="features" class="section features-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Designed Specifically for Prose Authors</h2>
+        <p class="section-subtitle">Code editors are built for compilers. Novellized is tailored entirely for the rhythm of literary prose.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Live Book Typography</h3>
+          <p class="feature-desc">Powered by TipTap and ProseMirror. Paragraph indentation, serif typographic scales, and comfortable eye-line margins format your text into a book page as you write.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Focus Mode & Typewriter Scroll</h3>
+          <p class="feature-desc">Only the active paragraph remains in high focus while surroundings gently fade. Concurrently, typewriter scrolling locks your active typing line at ~42% vertical eye level.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+              <polyline points="2 17 12 22 22 17"/>
+              <polyline points="2 12 12 17 22 12"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Dual-Engine Architecture</h3>
+          <p class="feature-desc">Switch seamlessly between formatted TipTap Live View and raw Monaco Markdown with zero buffer loss, no format destruction, and zero sync conflicts.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+              <line x1="3" y1="9" x2="21" y2="9"/>
+              <line x1="9" y1="21" x2="9" y2="9"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Scrivener-Style Binder</h3>
+          <p class="feature-desc">Hierarchical structure from Act to Chapter to Scene. Track project-wide word milestones, daily writing sprints, reading duration, and scene status at a glance.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">Jargon-Free Checkpoints</h3>
+          <p class="feature-desc">Built-in snapshot management powered by isomorphic-git under the hood. Save version checkpoints, view scene differences, and rollback revisions without terminal commands.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+          </div>
+          <h3 class="feature-title">One-Click Book Compiling</h3>
+          <p class="feature-desc">Compile your entire novel into validated EPUB 3 ebooks, publication-ready PDFs via headless printing, or responsive printable HTML viewports on demand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Two Ways to Write (Studio vs Extension) -->
+  <section id="studio" class="section comparison-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Two Ways to Experience Novellized</h2>
+        <p class="section-subtitle">Choose the dedicated standalone environment, or add the engine to your existing workflow.</p>
+      </div>
+
+      <div class="comparison-grid">
+        <div class="comparison-card featured">
+          <div class="card-badge">RECOMMENDED FOR AUTHORS</div>
+          <h3 class="card-title">Novellized Studio</h3>
+          <div class="card-subtitle">Dedicated Literary IDE</div>
+          <p class="card-description">
+            A standalone distraction-free writing environment built on top of customized, hardened VSCodium. 
+            All developer elements—terminals, debuggers, compiler diagnostics, and linter warnings—have been 
+            completely pruned away.
+          </p>
+          <ul class="card-features">
+            <li>Zero programmer noise (clean menubars, distraction-free activity bar)</li>
+            <li>Self-contained portable architecture with separate storage</li>
+            <li>Pre-tuned Warm Parchment and Midnight Candle themes</li>
+            <li>Native Linux (.deb & portable tar.gz) and Windows (.exe & zip) binaries</li>
+          </ul>
+          <a href="#downloads" class="btn btn-primary btn-block">Download Novellized Studio</a>
+        </div>
+
+        <div class="comparison-card">
+          <div class="card-badge secondary">UNIVERSAL EXTENSION</div>
+          <h3 class="card-title">Novellized Prose Editor</h3>
+          <div class="card-subtitle">VS Code / VSCodium Extension</div>
+          <p class="card-description">
+            Prefer keeping your customized editors and existing themes? Install the universal 
+            Novellized extension (.vsix) into any standard VS Code or VSCodium installation with a single click.
+          </p>
+          <ul class="card-features">
+            <li>Lightweight (~500 KB) bundle with zero runtime overhead</li>
+            <li>Works immediately on Linux, Windows, and macOS</li>
+            <li>Built-in automated background update checker</li>
+            <li>Full support for custom keybindings and workspaces</li>
+          </ul>
+          <a href="#extension-dl" class="btn btn-secondary btn-block">Download Extension (.vsix)</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Downloads Hub -->
+  <section id="downloads" class="section downloads-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get Novellized</h2>
+        <p class="section-subtitle">Free, open-source under the MIT license, and completely telemetry-free.</p>
+      </div>
+
+      <div class="downloads-grid">
+        <!-- Linux Card -->
+        <div class="download-card">
+          <div class="os-header">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.504 0c-.155 0-.315.008-.48.021-3.156.257-5.111 2.457-5.068 5.75.017 1.28.324 2.532.887 3.633l-.008.006c-.461 1.258-1.503 2.146-2.738 2.37-1.421.256-2.617.994-3.375 2.083-.757 1.088-.99 2.417-.655 3.738.647 2.553 3.013 4.4 5.617 4.4.262 0 .524-.018.783-.057 1.268-.188 2.392-.797 3.238-1.742.613.415 1.272.748 1.967.994-.356.551-.572 1.189-.623 1.85-.098 1.255.437 2.477 1.467 3.35.918.777 2.115 1.203 3.37 1.203.208 0 .417-.012.625-.035 1.554-.176 2.91-.986 3.727-2.227.816-1.24.97-2.756.422-4.162-.234-.602-.596-1.143-1.055-1.594.385-.453.725-.945 1.018-1.467.92.518 1.947.8 3.006.818 1.422.025 2.784-.482 3.834-1.43 1.05-1.947 1.62-2.3 1.602-3.812-.02-1.713-.76-3.266-2.03-4.264-1.19-.936-2.71-1.34-4.28-1.14-.85.11-1.66.42-2.38.9-1.27-.92-2.79-1.44-4.38-1.51-.07-.46-.08-.94-.03-1.42.17-1.74.87-3.23 2.03-4.32 1.16-1.09 2.68-1.55 4.38-1.33.22.03.44.05.65.05 1.1 0 2.11-.47 2.8-1.27.68-.81.88-1.89.55-2.96-.34-1.07-1.17-1.88-2.26-2.23-.74-.23-1.55-.26-2.34-.09-1.85.4-3.32 1.4-4.14 2.82-.44-.06-.9-.09-1.37-.09z"/>
+            </svg>
+            <div>
+              <h3 class="os-name">Linux</h3>
+              <span class="os-support">Debian, Ubuntu, Linux Mint & All Distros</span>
+            </div>
+          </div>
+          <div class="os-buttons">
+            <a href="https://github.com/novellized/novellized-editor/releases/latest" target="_blank" rel="noopener" class="btn btn-outline" id="dl-linux-deb">
+              Download .deb (x86_64)
+            </a>
+            <a href="https://github.com/novellized/novellized-editor/releases/latest" target="_blank" rel="noopener" class="btn btn-outline" id="dl-linux-tar">
+              Download Portable .tar.gz
+            </a>
+          </div>
+        </div>
+
+        <!-- Windows Card -->
+        <div class="download-card">
+          <div class="os-header">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
+            </svg>
+            <div>
+              <h3 class="os-name">Windows</h3>
+              <span class="os-support">Windows 10, 11 (64-bit)</span>
+            </div>
+          </div>
+          <div class="os-buttons">
+            <a href="https://github.com/novellized/novellized-editor/releases/latest" target="_blank" rel="noopener" class="btn btn-outline" id="dl-win-exe">
+              Download Setup .exe
+            </a>
+            <a href="https://github.com/novellized/novellized-editor/releases/latest" target="_blank" rel="noopener" class="btn btn-outline" id="dl-win-zip">
+              Download Portable .zip
+            </a>
+          </div>
+        </div>
+
+        <!-- Extension Card -->
+        <div class="download-card" id="extension-dl">
+          <div class="os-header">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+            </svg>
+            <div>
+              <h3 class="os-name">VS Code / VSCodium</h3>
+              <span class="os-support">Universal Extension Package</span>
+            </div>
+          </div>
+          <div class="os-buttons">
+            <a href="https://github.com/novellized/novellized-editor/releases/latest" target="_blank" rel="noopener" class="btn btn-outline" id="dl-vsix">
+              Download .vsix Package
+            </a>
+          </div>
+          <div class="code-box mt-3">
+            <code>code --install-extension novellized-editor-0.1.0.vsix</code>
+            <button class="btn-copy" data-copy="code --install-extension novellized-editor-0.1.0.vsix" title="Copy command">Copy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Linux APT Repository Section -->
+  <section id="apt-repository" class="section apt-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Automated Updates via Linux APT</h2>
+        <p class="section-subtitle">Install Novellized Studio once, and stay seamlessly updated through Debian/Ubuntu package management.</p>
+      </div>
+
+      <div class="apt-container">
+        <div class="apt-step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h4>Add the Official Novellized Repository</h4>
+            <p>Add the repository source entry directly to your system's package list:</p>
+            <div class="code-box">
+              <code>echo "deb [trusted=yes] https://novellized.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/novellized.list</code>
+              <button class="btn-copy" data-copy='echo "deb [trusted=yes] https://novellized.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/novellized.list' title="Copy command">Copy</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="apt-step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h4>Update Package Index & Install</h4>
+            <p>Fetch package lists and install Novellized Studio:</p>
+            <div class="code-box">
+              <code>sudo apt update && sudo apt install novellized-studio</code>
+              <button class="btn-copy" data-copy="sudo apt update && sudo apt install novellized-studio" title="Copy command">Copy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Novellized Logo" width="24" height="24">
+          <span>Novellized Organization</span>
+        </div>
+        <p class="footer-copy">Crafted for the love of storytelling. Free, open source under the MIT License.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/novellized" target="_blank" rel="noopener">GitHub Organization</a>
+        <a href="https://github.com/novellized/novellized-editor" target="_blank" rel="noopener">Editor Repository</a>
+        <a href="https://github.com/novellized/novellized-editor/releases" target="_blank" rel="noopener">Releases & Changelog</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
