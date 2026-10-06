@@ -71,3 +71,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Graceful fallback: Default GitHub release link remains active
   });
 });
+

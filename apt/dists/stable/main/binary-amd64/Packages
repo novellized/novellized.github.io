@@ -1,0 +1,17 @@
+Package: novellized-studio
+Version: 0.1.0
+Section: editors
+Priority: optional
+Architecture: amd64
+Installed-Size: 668136
+Maintainer: Novellized <contact@novellized.org>
+Depends: libgtk-3-0 | libgtk-3-0t64, libnotify4, libnss3, libxss1, xdg-utils, libsecret-1-0, libasound2 | libasound2t64
+Homepage: https://github.com/novellized/novellized-editor
+Description: Novellized Studio - Novelist IDE
+ Professional Literary Writing & Novel Development Environment.
+ WYSIWYG Live Markdown Editor and Distraction-free IDE for Authors and Novelists.
+Filename: pool/main/n/novellized-studio/novellized-studio_0.1.0_amd64.deb
+Size: 163086636
+MD5sum: 08315101d3094142e67f1ccd89c291e9
+SHA1: 87cf9520b570b5f96ab794598ee64f045587716b
+SHA256: 474d8bb3f29fc3353a9f5da91e22cd90e73e0823ec2c99855bee0b494ca73d18

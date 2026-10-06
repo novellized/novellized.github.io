@@ -314,11 +314,11 @@
         <div class="apt-step">
           <div class="step-num">1</div>
           <div class="step-body">
-            <h4>Add the Official Novellized Repository</h4>
-            <p>Add the repository source entry directly to your system's package list:</p>
+            <h4>Option A: Quick One-Line Terminal Install</h4>
+            <p>Automatically downloads and installs the latest verified .deb package for your system:</p>
             <div class="code-box">
-              <code>echo "deb [trusted=yes] https://novellized.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/novellized.list</code>
-              <button class="btn-copy" data-copy='echo "deb [trusted=yes] https://novellized.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/novellized.list' title="Copy command">Copy</button>
+              <code>curl -fsSL https://novellized.github.io/install.sh | bash</code>
+              <button class="btn-copy" data-copy="curl -fsSL https://novellized.github.io/install.sh | bash" title="Copy command">Copy</button>
             </div>
           </div>
         </div>
@@ -326,9 +326,13 @@
         <div class="apt-step">
           <div class="step-num">2</div>
           <div class="step-body">
-            <h4>Update Package Index & Install</h4>
-            <p>Fetch package lists and install Novellized Studio:</p>
+            <h4>Option B: Standard APT Package Repository</h4>
+            <p>Add the repository source entry directly to your system's package list:</p>
             <div class="code-box">
+              <code>echo "deb [trusted=yes] https://novellized.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/novellized.list</code>
+              <button class="btn-copy" data-copy='echo "deb [trusted=yes] https://novellized.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/novellized.list' title="Copy command">Copy</button>
+            </div>
+            <div class="code-box mt-3">
               <code>sudo apt update && sudo apt install novellized-studio</code>
               <button class="btn-copy" data-copy="sudo apt update && sudo apt install novellized-studio" title="Copy command">Copy</button>
             </div>
@@ -359,3 +363,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+

@@ -1,0 +1,18 @@
+Origin: Novellized
+Label: Novellized Studio
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: amd64
+Components: main
+Description: Official APT Repository for Novellized Studio
+Date: Tue, 06 Oct 2026 17:55:14 GMT
+MD5Sum:
+ 1f2040eeaf136c90cba267e8cc85d2e5 790 main/binary-amd64/Packages
+ e79885a2f828efc16a7c281e0dceffd3 520 main/binary-amd64/Packages.gz
+SHA1:
+ c3dd786367a5bc328b097258ef75a4b532b227b1 790 main/binary-amd64/Packages
+ 237c53c48e2d2e7ff4aaa5468a2cd7e3ee35b1ec 520 main/binary-amd64/Packages.gz
+SHA256:
+ 42c4c08726ac8fb6627cfbc6bc0c6a8589874fd49905552d282de645340209bc 790 main/binary-amd64/Packages
+ a1002a0a6ca4f8fece29088b90851a97c4c67b9dad364883c3a7a304718135fa 520 main/binary-amd64/Packages.gz

@@ -32,3 +32,4 @@ git push -u origin main
 ```
 
 GitHub Pages will automatically serve the website at `https://novellized.github.io`.
+
